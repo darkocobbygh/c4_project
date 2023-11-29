@@ -1,0 +1,88 @@
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login>p{
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.login>h1{
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.login-label{
+  font-weight: 400;
+  font-size: 16px;
+}
+form>label{
+  margin-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  form>input{
+    width: 634px;
+    height: 65px;
+    background-color: #EBE9E9;
+    border-radius: 15px;
+  }
+  .forgot{
+    color: #F46262;
+  }
+  form>button{
+    background-color: #2ACFCF;
+    width:634px;
+    height:64px;
+    margin-top: 30px;
+  }
+  .no-account{
+    color: #000000;
+  }
+  .sig{
+    display: flex;
+    gap: 5px;
+  }
+  .sig>a{
+    color: #F46262;
+  }
+
+  form>button{
+    color: #fff;
+  }
+
+.names{
+  display: flex;
+  gap: 20px;
+}
+
+.name>input{
+  height: 65px;
+  width: 295px;
+  background-color: #EBE9E9;
+  border-radius: 15px;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.recovery{
+  width: 595px;
+}
+
+.recovery>p{
+  font-weight: 400;
+  font-size: 22px;
+}
