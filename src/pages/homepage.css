@@ -1,0 +1,75 @@
+.hero{
+    display: flex;
+    gap: 30px;
+}
+
+.one{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.one>h1{
+    font-weight:bolder
+}
+.one>p{
+    color: gray;
+    font-size: 22px;
+}
+.one>button{
+    background-color: #2ACFCF;
+    color: #fff;
+    width: 150px;
+    font-size: larger;
+    border-radius: 20px;
+}
+.shorten{
+    background-color: #4B3F6B;
+    height: 140px;
+    width: 830px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.shorts{
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+}
+.shorts>button{
+    background-color: #2ACFCF;
+    color: #fff;
+    height: 64px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 14px;
+}
+
+.shorts>input{
+    height: 64px;
+    width: 600px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.pix{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.items{
+    display: flex;
+}
+
+.phase-two{
+    height: 100vh;
+    background-color: rgb(237, 231, 231);
+}
+
+.stats{
+    padding-top: 50px;
+}
+
+.indie{
+    background-color: #fff;
+}

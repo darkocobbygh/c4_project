@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    align-items: flex-start;
+}
+.logo{
+    padding-top: 20px;
+}
+.lists{
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+    margin-right: 570px;
+}
+.lists>li{
+    list-style: none;
+}
+
+.list>li{
+    list-style: none;
+}
+.lists{
+    color: gray;
+    font-size: 20px;
+}
+
+.butts{
+    background-color: #fff;
+}
+
+.auth{
+    display: flex;
+    gap: 20px;
+}
+.auths{
+    background-color: #2ACFCF;
+    color: #fff;
+}
+
+.aut{
+    background-color: #fff;
+    color: gray;
+}
+
+@media only screen and (min-width: 600px) {
+    .butts{
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .butts{
+        display: block;
+    }
+    .lists{
+        display: none;
+    }
+    .auth{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    }

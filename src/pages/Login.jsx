@@ -1,7 +1,12 @@
 import './login.css'
+import { FaArrowLeft } from "react-icons/fa";
 const Login = () => {
   return (
     <div className='login-container'>
+      <div className='back'>
+      <FaArrowLeft color='gray' />
+      <p>Back</p>
+      </div>
        <div className='login'>
       <h1>Login</h1>
       <p>Get started with Shortly</p>
