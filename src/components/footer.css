@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    background-color: #232127;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.services{
+    display: flex;
+    gap: 25px;
+}
+
+.feats{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-logo{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.feats>h3{
+    color: #fff;
+}
+.feats>a{
+    color: #BFBFBF;
+    font-size: 22px;
+}
+.socials{
+    display: flex;
+    gap: 15px;
+    padding-right: 100px;
+    padding-top: 20px;
+}

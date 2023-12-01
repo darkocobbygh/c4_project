@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars,FaTimes } from "react-icons/fa";
 import './navbar.css'
 import logo from '../assets/images/logo.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen,setIsOpen]= useState(false);
@@ -23,8 +24,8 @@ const toggleNav=()=>{
     {isOpen? <FaTimes color="gray" size={30} /> : <FaBars color="gray" size={30}/>}
 </button>
 <div className="auth">
-    <button className="aut">Login</button>
-    <button className="auths">Signup</button>
+    <Link to={'login'} className="aut">Login</Link>
+    <Link to={'sign-up'} className="auths">Signup</Link>
 </div>
       </nav>
       {isOpen && (

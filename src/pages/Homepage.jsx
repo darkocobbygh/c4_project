@@ -4,6 +4,7 @@ import './homepage.css';
 import pic1 from '../assets/images/icon-brand-recognition.png';
 import pic2 from '../assets/images/icon-detailed-records.png';
 import pic3 from '../assets/images/icon-fully-customizable.png';
+import Footer from "../components/Footer";
 const data=[
     {
        id:1, 
@@ -28,13 +29,14 @@ const Homepage = () => {
   return (
     <div>
       <Navbar/>
-      <div className="hero">
+     <div className="homes">
+     <div className="hero">
         <div className="one">
             <h1>More than just shorter links</h1>
             <p>Build your brands recognition and get detailed insights on how your links are performing</p>
             <button>Get started</button>
         </div>
-        <div>
+        <div className="illust">
             <img src={illustration} alt="" />
         </div>
       </div>
@@ -52,8 +54,8 @@ const Homepage = () => {
         <div className="items">
            {data.map((brands)=>(
             <div key={brands.id} className="indie">
-                <div>
-                    <img src={brands.pic} alt="" className="pix" />
+                <div className="pix">
+                    <img src={brands.pic} alt=""/>
                 </div>
                 <h2>{brands.header} </h2>
                 <p>{brands.content} </p>
@@ -61,6 +63,14 @@ const Homepage = () => {
            ))}
         </div>
       </div>
+      <div className="booster-container">
+        <div className="its">
+          <h2>Boost your links today</h2>
+          <button>Get started</button>
+        </div>
+      </div>
+     </div>
+      <Footer/>
     </div>
   )
 }

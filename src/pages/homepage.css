@@ -53,23 +53,90 @@
     font-size: 20px;
 }
 .pix{
-    background-color: blue;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B3054;
     border-radius: 50%;
+    position: absolute;
+    top: -1%;
 }
 
 .items{
     display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 30px 30px;
+ position: relative;
 }
 
 .phase-two{
     height: 100vh;
-    background-color: rgb(237, 231, 231);
+    background-color: #BFBFBF;
+    padding-bottom: 0;
 }
 
 .stats{
     padding-top: 50px;
 }
+.stats>p{
+    color: gray;
+}
 
 .indie{
+    box-shadow: 10px;
     background-color: #fff;
+   margin-right: 20px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 30px;
 }
+
+.booster-container{
+    background-color: #3B3054;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.its>h2{
+    color: #fff;
+    font-size: 30px;
+}
+.its>button{
+    background-color: #2ACFCF;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+        .home{
+            display:flex ;
+            flex-direction: column;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+        .one{
+            width: 300px;
+        }
+        .illust>img{
+            width: 300px;
+            height: 300px;
+        }
+        .shorts{
+            width: 200px;
+        }
+    }
