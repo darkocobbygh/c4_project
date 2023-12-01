@@ -10,7 +10,7 @@ const toggleNav=()=>{
     setIsOpen(!isOpen)
 }
   return (
-    <div>
+    <div className="navs">
       <nav className="navbar">
        <div className="logo">
        <img src={logo} alt="" />

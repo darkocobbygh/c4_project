@@ -35,3 +35,19 @@
     padding-right: 100px;
     padding-top: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        width: 380px;
+        flex-direction: column;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .socials{
+        padding-left: 20px;
+    }
+}
